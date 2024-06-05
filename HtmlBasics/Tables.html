@@ -1,0 +1,73 @@
+<!--
+    Table tags are used to represent real life data.
+    Syntax:
+    <table>
+        <caption>.....</caption>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td>Data </td>
+            <td>Data </td>
+        </tr>
+    </table>
+    Important 1 : Colspan : When a cell is spreaded over more than 1 column - an attribute
+    Important 2 : Rowspan : When a cell is spreaded over more than 1 row - an attribute
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <!--Example of table-->
+    <table border="black"> <!--Here border is an attribute-->
+        <caption>Country Capital</caption>
+        <tr>
+            <th>Country</th>
+            <th>Capital</th>
+        </tr>
+        <tr>
+            <td>India </td>
+            <td>New Delhi </td>
+        </tr>
+        <tr>
+            <td>China </td>
+            <td>Beijing </td>
+        </tr>
+        <tr>
+            <td>USA </td>
+            <td>Washington D.C. </td>
+        </tr>
+    </table>
+    <!--Example of table using Colspan and rowSpan-->
+    <table border="black">
+        <caption>Food Menu</caption>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">Average</th>
+            <th rowspan="2">Red Eyes</th>
+        </tr>
+        <tr>
+            <th>Height</th>
+            <th>Weight</th>
+        </tr>
+        <tr>
+            <td>Males</td>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <td>Females</td>
+            <td>1.7</td>
+            <td>0.002</td>
+            <td>43%</td>
+        </tr>
+    </table>
+
+</body>
+</html>
