@@ -21,7 +21,7 @@
     4.) Button Element - Syntax : <button>Submit</button>
                        - Type Attributes -<button type="Submit/Reset/button">
                        - Button using input - <input type="button">
-                                              <input type="Submit" value="Click Me">
+                                              <input type="Submit" value="Click Me"> (Creating button using input is not a good approach)
     5.) Checkbox - Syntax : <input type="Checkbox" name="age" id="age">
                             <label for="age">I am 18+</label>
     -->
@@ -31,9 +31,19 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Forms</title>
-        
     </head>
     <body>
-        
+        <form action="/server">
+            <label for="username">Enter username : </label>
+            <input type="text" id="username" placeholder="username">
+            <br>
+            <label for="password">Enter password : </label>
+            <input type="password" id="password" placeholder="password"><br>
+            <!--Checkbox element-->
+            <input type="Checkbox" name="age" id="age">
+            <label for="age">I am 18+</label><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
     </body>
     </html>
