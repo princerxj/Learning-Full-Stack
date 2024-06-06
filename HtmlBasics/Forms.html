@@ -34,16 +34,31 @@
     </head>
     <body>
         <form action="/server">
-            <label for="username">Enter username : </label>
-            <input type="text" id="username" placeholder="username">
-            <br>
-            <label for="password">Enter password : </label>
-            <input type="password" id="password" placeholder="password"><br>
+            <div>
+              <label for="username">Enter username : </label>
+              <input type="text" id="username" placeholder="username">
+            </div>
+            <div>
+              <label for="password">Enter password : </label>
+              <input type="password" id="password" placeholder="password">
+            </div>
             <!--Checkbox element-->
-            <input type="Checkbox" name="age" id="age">
-            <label for="age">I am 18+</label><br>
-            <button type="submit">Submit</button>
-            <button type="reset">Reset</button>
+            <div>
+              <input type="Checkbox" name="age" id="age">
+              <label for="age">I am 18+</label>
+            </div>
+            <div>
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+            </div>
+        </form>
+        <hr>
+        <!--Create a search option that reddirects its search results to google-->
+        <form action="https://www.google.com/search?">
+            <div>
+                <input type="text" placeholder="Search here" name="q">
+                <button type="submit">Search</button>
+            </div>
         </form>
     </body>
     </html>
