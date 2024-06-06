@@ -24,6 +24,7 @@
                                               <input type="Submit" value="Click Me"> (Creating button using input is not a good approach)
     5.) Checkbox - Syntax : <input type="Checkbox" name="age" id="age">
                             <label for="age">I am 18+</label>
+    *Difference between checkbox and radio element is : only one option can be selected in radio (given that name attribute should be same)
     -->
     <!DOCTYPE html>
     <html lang="en">
@@ -53,12 +54,38 @@
             </div>
         </form>
         <hr>
-        <!--Create a search option that reddirects its search results to google-->
+        <!--Create a search option that redirects its search results to google-->
         <form action="https://www.google.com/search?">
             <div>
                 <input type="text" placeholder="Search here" name="q">
                 <button type="submit">Search</button>
             </div>
         </form>
+        <hr> 
+        <!--Radio Elements-->
+        <form action="/server">
+            <div>
+            <input type="radio" id="apple" name="fruit">
+            <label for="apple">Apple</label>
+            <input type="radio" id="mango" name="fruit">
+            <label for="mango">Mango</label>
+            <input type="radio" id="orange" name="fruit">
+            <label for="orange">Orange</label>
+            </div>
+            <button type="submit">Submit</button>
+            <hr>
+            <!-- Dropdown Element-->
+          <div>
+            <label for="profession">Choose your profession : </label>
+            <select name="profession" id="profession">
+              <option value="stud">Student</option>
+              <option value="dev">Developer</option>
+              <option value="teacher">Teacher</option>
+              <option value="oth">Others</option>
+            </select>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+        
     </body>
     </html>
