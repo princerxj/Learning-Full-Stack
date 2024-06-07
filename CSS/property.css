@@ -1,0 +1,17 @@
+/* Color Property : Use to set color of foreground
+    example : color : purple; 
+              color : #ffffff;
+*/
+p {
+    color : orangered;
+}
+/*   
+    Background color property : Use to set the background color
+    example : background-color : purple ;
+*/
+h1 {
+    background-color: rgb(242, 137, 9);
+}
+
+
+ 
