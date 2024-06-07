@@ -1,0 +1,18 @@
+/* There are namely three color systems,
+    1.) Named colors : Each browsers recognises about 140-150 named colors. 
+                     : Defined by color : red ;
+    2.) RGB type     : Defined by - color = rgb(0,0,0) . 
+                     : The range lies from 0 to 255
+    3.) Hexadecimal  : Defined by the use of letters A,B,C,D,E,F and numbers from o to 9
+                     : color : #ffffff; 
+    Same rule applied to other properties 
+*/
+h1 {
+    color : red;
+}
+h2 {
+    color: rgb(23, 34, 100);
+}
+h3 {
+    background-color: #ff123f;
+}
