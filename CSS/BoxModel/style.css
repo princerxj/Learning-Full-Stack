@@ -1,0 +1,26 @@
+div {
+    height : 200px; /* Sets the height of the content area */
+    width : 500px; /*Sets the width of content area */
+    background-color: pink;  
+    /* border-width : 5px;
+    border-style: solid;
+    border-color: black;*/
+    border : 5px solid black;
+    border-radius: 10px;
+    padding-top : 10px;
+}
+
+h1 {
+    border-width : 2px;
+    border-style : dashed;
+    border-color: green;
+}
+/*Border shorthand : border : width|style|color*/
+
+button {
+    background-color: yellow;
+    border : 2px solid black;
+    border-radius : 10px;
+    padding-left : 25px;
+    padding-right: 25px;
+}
