@@ -1,0 +1,48 @@
+* {
+    font-family: 'Courier New';
+}
+
+h1,h3 {
+    color : #B92B27;
+}
+
+#login {
+    background-color: white;
+}
+
+#signup {
+    background-color: #B92B27;
+    color : white;
+}
+
+.upvote {
+    background-color: green;
+    color : aliceblue;
+}
+
+.post a {
+    color : purple;
+    background-color: yellow;
+}
+
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color : lightblue;
+}
+
+button:hover{
+    background-color: black;
+    color : white;
+}
+
+h3:hover {
+    text-decoration: overline;
+}
+
+button:active {
+    background-color: pink;
+    color : black;
+}
