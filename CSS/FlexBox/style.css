@@ -1,11 +1,19 @@
 #container {
-    height : 300px;
+    height : 600px;
     width : 80%;
     background-color: azure;
     margin : 10px auto;
     border : 2px solid black;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* justify-content: flex-start;
+    align-items: baseline; */
+    align-content : flex-start;
+}
+
+#orange {
+    align-self: flex-end;
 }
 
 h1 {
@@ -13,9 +21,9 @@ h1 {
 }
 
 #container div {
-    height : 100px;
+    height: 100px;
     width: 300px;
-    color : white;
+    color : white ;
     text-align: center;
-    font-size: 1.5;
+    font-size: 1.5em;
 }
