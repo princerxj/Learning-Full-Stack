@@ -1,5 +1,4 @@
-// console.log("Hello world");
-// console.log("Apna College");
-let a = 10;
-let b = 5;
-console.log("Sum is :", a+b);
+let pencilPrice = 10;
+let eraserPrice = 5;
+let output = `The total price is : ${pencilPrice+eraserPrice} rupees`;
+console.log(output);
