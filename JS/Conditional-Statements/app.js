@@ -5,12 +5,10 @@
 
 //if statement example
 
-console.log("Before my if statement");
-let age = 13;
-if(age >= 18) {
-    console.log("You can vote");
+let num = 23;
+if(num%2 == 0) {
+    console.log(`${num} is an even number`);
 }
-if(age < 18) {
-    console.log("You cannot vote");
+if(num%2 != 0) {
+    console.log(`${num} is an odd number`);
 }
-console.log("After my if statement");
