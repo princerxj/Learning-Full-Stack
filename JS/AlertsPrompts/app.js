@@ -1,1 +1,2 @@
-alert("something is wrong");
+let name = prompt("Enter your name :");
+console.log(name);
