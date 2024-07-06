@@ -1,2 +1,3 @@
-let name = prompt("Enter your name :");
-console.log(name);
+let firstName = prompt("Enter first name");
+let lastName = prompt("Enter last name");
+console.log("Welcome", firstName, lastName, "!");
