@@ -1,6 +1,10 @@
-let msg = "ILoveCoding";
-let index = msg.indexOf("Love");
-console.log(index);
+//Method Chaining
+//Using one method after another. Order of execution will be left to right
+let msg = "   hello   ";
+// let newmsg = msg.trim();
+// console.log("After trim : ",newmsg);
+// newmsg = newmsg.toUpperCase();
+// console.log("After Upper case : ",newmsg);
 
-//stringName.indexOf("argument") gives the first index of occurence of 
-// some vakue in a string
+let newMsg = msg.toUpperCase().trim();
+console.log(newMsg); 
