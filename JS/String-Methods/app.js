@@ -1,4 +1,3 @@
-// let msg = "     Hello  ";
-// console.log(msg);
-let password = prompt("Set your password");
-console.log(password.trim());
+let str = "Random String";
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
