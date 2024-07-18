@@ -1,10 +1,13 @@
-//Method Chaining
-//Using one method after another. Order of execution will be left to right
-let msg = "   hello   ";
-// let newmsg = msg.trim();
-// console.log("After trim : ",newmsg);
-// newmsg = newmsg.toUpperCase();
-// console.log("After Upper case : ",newmsg);
+//Slice
+//Returns a part of the original string as a new String
+/* Syntax : 
+1.)str.slice(start,end); Ending index is excluded 
+2.)Another method is to just pass the start value , in that 
+case end will be assumed as str.length
+3.)str.slice(-num) will be processed as atr.slice(str.length - num)
 
-let newMsg = msg.toUpperCase().trim();
-console.log(newMsg); 
+*/
+let str = "ilovecoding";
+console.log(str.slice(1,5)); //Output : love
+console.log(str.slice(5)); //Output : Coding
+console.log(str.slice(-2)); //Will be processed as 11-2 = 9 i.e str.slice(9) so output will be "ng"
