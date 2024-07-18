@@ -1,5 +1,4 @@
-//let student1 = "Aman";
-//let student2 = "Shradha";
-//let student3 = "Rajat";
+//Arrays are mutable 
 
-let students = ["Aman", "Shradha", "Rajat"];
+let fruits = ["mango", "apple", "orange"];
+fruits[0] = "banana"; //fruits = ["banana", "apple", "orange"];
