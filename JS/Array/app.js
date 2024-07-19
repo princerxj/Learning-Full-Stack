@@ -10,3 +10,12 @@ console.log(cars);
 
 cars.shift(); //Array Shift Method delete an element from the start and returns it 
 console.log(cars);
+
+//IndexOf : Returns the index of something 
+console.log(cars.indexOf("bmw")); //Output : 1
+console.log(cars.indexOf("xuv")); //output : 2
+console.log(cars.indexOf("toyota")); //Output : -1
+
+//includes : Tells the presence of an element in the array in boolean 
+console.log(cars.includes("xuv")); //Output : True 
+console.log(cars.includes("toyota")); //Output : False
