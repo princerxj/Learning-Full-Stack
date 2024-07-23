@@ -1,7 +1,9 @@
-//Sort Method in array 
-//Sorts an array 
+//Array References 
+//References means Address in Memory 
 
-let numbers = [99,89,67,42,100];
-console.log(numbers);
-numbers.sort();
-console.log(numbers);
+let arr = ['a','b','c'];
+let arrcopy = arr;
+console.log(arr == arrcopy) ;
+arr.push('d');
+console.log(arr);
+console.log(arrcopy);
