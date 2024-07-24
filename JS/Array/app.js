@@ -1,9 +1,5 @@
-//Array References 
-//References means Address in Memory 
+//Constant Arrays 
 
-let arr = ['a','b','c'];
-let arrcopy = arr;
-console.log(arr == arrcopy) ;
-arr.push('d');
+const arr = [1,2,3];
+arr.push(4);
 console.log(arr);
-console.log(arrcopy);
