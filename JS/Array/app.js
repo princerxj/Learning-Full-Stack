@@ -1,5 +1,5 @@
-//Constant Arrays 
+//Nested Arrays 
+//Arrays of arrays or Multi dimensional array 
 
-const arr = [1,2,3];
-arr.push(4);
-console.log(arr);
+let nums = [[1,2],[4,1],[5,9]];
+console.log(nums);
