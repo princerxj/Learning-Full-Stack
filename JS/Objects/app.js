@@ -11,8 +11,20 @@ const student = {
     age : 23,
 };
 
-//Get Values 
+//Get Values  : JS automatically converts object keys to Strings 
 /*We may either use student["name"] or student.name*/
 
 console.log(student["name"]);
 console.log(student.marks);
+
+//Add/update value
+/*
+    Task : Change the city to Mumbai 
+           Add a new property , gender : "Female"
+           Change the marks to "A"
+*/
+student.city = "Mumbai";
+student.gender = "Female";
+student.marks = "A";
+//Deletion of a key 
+delete student.marks;
