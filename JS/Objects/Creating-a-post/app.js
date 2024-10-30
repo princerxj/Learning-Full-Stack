@@ -2,3 +2,10 @@
 /* 
     Username, content, likes, reposts, tags 
 */
+const post = {
+    username : "@princerxj",
+    content : "This is my first post",
+    likes : 150,
+    reposts : 5,
+    tags : ["@apnacollge","@delta"],
+}
