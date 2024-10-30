@@ -10,3 +10,9 @@ const student = {
     location : "Delhi",
     age : 23,
 };
+
+//Get Values 
+/*We may either use student["name"] or student.name*/
+
+console.log(student["name"]);
+console.log(student.marks);
