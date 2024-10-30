@@ -28,3 +28,20 @@ student.gender = "Female";
 student.marks = "A";
 //Deletion of a key 
 delete student.marks;
+
+//Object of Objects
+// Storing infos of multiple students 
+const classInfo = {
+    Aman : {
+        grade : "A",
+        city : "Pune",
+    },
+    Rahul : {
+        grade : "B",
+        city : "Delhi",
+    },
+    Roshan : {
+        grade : "A+",
+        city : "Patna",
+    },
+}
