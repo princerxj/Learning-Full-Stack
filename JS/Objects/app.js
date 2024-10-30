@@ -45,3 +45,22 @@ const classInfo = {
         city : "Patna",
     },
 }
+
+//Array of Objects : Storing objects inside an array 
+const classInfo2 = [
+    {
+        name : "Aman",
+        grade : "C",
+        city : "Patna",
+    },
+    {
+        name : "Rahul",
+        grade : "D",
+        city : "Agra",
+    },
+    {
+        name : "Prince",
+        grade : "E",
+        city : "Delhi",
+    }
+]
