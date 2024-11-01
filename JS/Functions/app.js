@@ -29,3 +29,25 @@ function rolldice() {
     num = Math.floor(num) + 1;
     console.log(num);
 }
+
+//Functions with arguments 
+/*  Syntax : 
+    function funcName(arg1, arg2 , ....) {
+        //do something
+    }
+*/
+function sum(a, b) {
+    console.log(a+b);
+}
+sum(9,23);
+
+function average(a, b, c) {
+    let sum = a + b + c;
+    console.log(`Average is : ${sum / 3}`);
+}
+
+function printTable(n) {
+    for(let i = 1; i  < 11; i++) {
+        console.log(`${n} X ${i} = ${n*i}`);
+    }
+}
