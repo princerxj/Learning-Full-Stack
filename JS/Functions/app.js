@@ -61,3 +61,14 @@ function printTable(n) {
 
 //Scope : determines the accesibilty of variables, objects and functions from different parts 
 //Of three types : Function, Block , Lexical
+
+//Function expression 
+/*  Example : const variable = function(arg1, arg2 ....) {
+                    //Do or return something 
+              }
+*/
+
+const sum2 = function(a,b) {
+    return a+b;
+}
+sum2(2,3);
