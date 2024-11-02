@@ -58,3 +58,6 @@ function printTable(n) {
         return value ;
     }
 */
+
+//Scope : determines the accesibilty of variables, objects and functions from different parts 
+//Of three types : Function, Block , Lexical
