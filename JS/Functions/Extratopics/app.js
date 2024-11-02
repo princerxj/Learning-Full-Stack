@@ -10,3 +10,14 @@ const student = {
         console.log(`${this.name} got an average marks of ${avg}`);
     }
 }
+
+//Try and catch
+console.log("Hello");
+console.log("Hello");
+try {
+    console.log(a);
+} catch {
+    console.log("Caught an error ,a  is not defined");
+}
+console.log("Hello");
+console.log("hello");
