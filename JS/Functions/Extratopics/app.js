@@ -40,3 +40,8 @@ setTimeout(() => {
 },4000);
 
 console.log("Welcome to " );
+
+//setInterval(function, timeout)
+let id = setInterval(()=> {
+    console.log("Apna College");
+},2000);
