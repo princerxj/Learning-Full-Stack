@@ -26,3 +26,8 @@ console.log("hello");
 const sum = (a,b) => {
     return a+b;
 }
+
+//Implicit return in arrow function 
+const mul = (a,b) => (
+    a*b
+);
