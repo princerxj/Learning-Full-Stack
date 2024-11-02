@@ -72,3 +72,16 @@ const sum2 = function(a,b) {
     return a+b;
 }
 sum2(2,3);
+
+//Higher order function : A func which that does one or both : 1.)takes one or more functions as args 2.)returns a function
+function multipleGreet(func,count) {
+    for(let i = 1; i <= count; i++) {
+        func();
+    }
+}
+
+let greeting = function() {
+    console.log("Hello");
+}
+
+multipleGreet(greeting,2);
