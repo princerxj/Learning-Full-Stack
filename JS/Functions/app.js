@@ -51,3 +51,10 @@ function printTable(n) {
         console.log(`${n} X ${i} = ${n*i}`);
     }
 }
+
+//return keyword is used to use some value from the function
+/* function funcName(arg1, arg2, ...) {
+        //do something 
+        return value ;
+    }
+*/
