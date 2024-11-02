@@ -31,3 +31,12 @@ const sum = (a,b) => {
 const mul = (a,b) => (
     a*b
 );
+
+//setTimeout(function, timeout)
+console.log("Hii there");
+
+setTimeout(() => {
+    console.log("Apna College");
+},4000);
+
+console.log("Welcome to " );
